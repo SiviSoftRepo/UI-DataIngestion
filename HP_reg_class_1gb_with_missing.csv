@@ -1,0 +1,17 @@
+Country,Statezip,Date,City,Population,IsActive,Address,Phone
+USA,10001,22/04/2024,New York,8000000,True,"123 Main St, Apt 4B",+1-555-0101
+Canada,20002,23/04/2024,Toronto,3000000,False,"456 Oak Ave",+1-555-0202
+UK,30003,24/04/2024,London,9000000,True,"789 High St",+44-20-555-0303
+Germany,40004,25/04/2024,Berlin,3500000,True,"101 Park Str",+49-30-555-0404
+France,50005,26/04/2024,Paris,2100000,False,"202 Champs Elysees",+33-1-555-0505
+Australia,60006,27/04/2024,Sydney,5000000,True,"303 Harbour Dr",+61-2-555-0606
+Japan,70007,28/04/2024,Tokyo,14000000,True,"404 Shibuya St",+81-3-555-0707
+Brazil,80008,29/04/2024,Sao Paulo,12000000,False,"505 Avenida Paulista",+55-11-555-0808
+India,90009,30/04/2024,Mumbai,20000000,True,"606 Marine Drive",+91-22-555-0909
+China,10010,01/05/2024,Beijing,21000000,True,"707 Wangfujing St",+86-10-555-1010
+USA,10011,02/05/2024,Los Angeles,4000000,True,"808 Sunset Blvd",+1-555-1111
+Canada,20012,03/05/2024,Vancouver,2500000,False,"909 Granville St",+1-555-1212
+UK,30013,04/05/2024,Manchester,2800000,True,"110 Oxford Rd",+44-161-555-1313
+Germany,40014,05/05/2024,Munich,1500000,True,"211 Marienplatz",+49-89-555-1414
+France,50015,06/05/2024,Lyon,500000,False,"312 Rue de la Republique",+33-4-555-1515
+

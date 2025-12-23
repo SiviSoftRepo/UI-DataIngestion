@@ -1,0 +1,103 @@
+{
+  "uuid": "223fd250-0336-407b-9a66-66a45243fc4e",
+  "createdby": "System",
+  "createddate": "2025-12-05T13:34:03.701Z",
+  "fileConfiguration": [
+    {
+      "deptName": "Denver",
+      "fileName": "sample_data.csv",
+      "projectName": "CC",
+      "indexname": "sample_test",
+      "compositeKeySeparator": "-",
+      "columnConfiguration": [
+        {
+          "columnName": "Country",
+          "mappedColumnName": "country",
+          "dataType": "String",
+          "allowNull": true,
+          "unique": false,
+          "compositeKey": {
+            "compositekey": false
+          },
+          "specialCharacter": {
+            "acceptspecialcharacter": false,
+            "specialCharacter": []
+          }
+        },
+        {
+          "columnName": "Statezip",
+          "mappedColumnName": "statezip",
+          "dataType": "String",
+          "allowNull": false,
+          "unique": false,
+          "compositeKey": {
+            "compositekey": true,
+            "compositekeyOrder": 1
+          },
+          "specialCharacter": {
+            "acceptspecialcharacter": false,
+            "specialCharacter": []
+          }
+        },
+        {
+          "columnName": "Date",
+          "mappedColumnName": "date",
+          "dataType": "Date",
+          "allowNull": false,
+          "unique": false,
+          "compositeKey": {
+            "compositekey": false
+          },
+          "specialCharacter": {
+            "acceptspecialcharacter": false,
+            "specialCharacter": []
+          },
+          "dateValidation": true,
+          "dateFormat": "%d/%m/%Y"
+        },
+        {
+          "columnName": "City",
+          "mappedColumnName": "city",
+          "dataType": "String",
+          "allowNull": true,
+          "unique": false,
+          "compositeKey": {
+            "compositekey": false
+          },
+          "specialCharacter": {
+            "acceptspecialcharacter": false,
+            "specialCharacter": []
+          }
+        },
+        {
+          "columnName": "Population",
+          "mappedColumnName": "population",
+          "dataType": "Integer",
+          "allowNull": true,
+          "unique": false,
+          "compositeKey": {
+            "compositekey": false
+          },
+          "specialCharacter": {
+            "acceptspecialcharacter": false,
+            "specialCharacter": []
+          }
+        },
+        {
+          "columnName": "IsActive",
+          "mappedColumnName": "isActive",
+          "dataType": "Boolean",
+          "allowNull": false,
+          "unique": false,
+          "compositeKey": {
+            "compositekey": false
+          },
+          "specialCharacter": {
+            "acceptspecialcharacter": false,
+            "specialCharacter": []
+          }
+        }
+      ]
+    }
+  ]
+}
